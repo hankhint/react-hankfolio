@@ -5,6 +5,7 @@ import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
 
 function App() {
+  //array destructuring, similar to object destructuring (destruction assignment)
   const [categories] = useState([
     {
       name: 'commercial',
@@ -27,6 +28,8 @@ function App() {
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        // children is the text between the ><
+       // children={'glorious'}
       ></Nav>
       <main>
         {!contactSelected ? (

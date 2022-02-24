@@ -1,13 +1,18 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
+//this is what Nav receives in its prop variable
 function Nav(props) {
+  console.log(props)
   const {
+    //setting a default value if props doesn't have a category property
+    //these are property names
     categories = [],
     setCurrentCategory,
     contactSelected,
     currentCategory,
     setContactSelected,
+    //expecting to get five things
   } = props;
 
   useEffect(() => {
