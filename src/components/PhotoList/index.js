@@ -8,13 +8,16 @@ const PhotoList = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Grocery aisle',
-      category: 'commercial',
+      //changed this from 'commercial' to 'portfolio'
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Grocery booth',
-      category: 'commercial',
+            //changed this from 'commercial' to 'portfolio'
+
+      category: 'portfolio',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
@@ -113,13 +116,13 @@ const PhotoList = ({ category }) => {
       category: 'landscape',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Park bench',
-      category: 'landscape',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    }
+    }//,
+    // {
+    //   name: 'Park bench',
+    //   category: 'landscape',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+    // }
   ]);
 
   const currentPhotos = photos.filter(photo => photo.category === category);
