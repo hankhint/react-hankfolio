@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-hankfolio/static/css/main.90e75332.chunk.css",
+    "main.js": "/react-hankfolio/static/js/main.faeb4d67.chunk.js",
+    "main.js.map": "/react-hankfolio/static/js/main.faeb4d67.chunk.js.map",
+    "runtime-main.js": "/react-hankfolio/static/js/runtime-main.c1d5ca86.js",
+    "runtime-main.js.map": "/react-hankfolio/static/js/runtime-main.c1d5ca86.js.map",
+    "static/js/2.f4456cb7.chunk.js": "/react-hankfolio/static/js/2.f4456cb7.chunk.js",
+    "static/js/2.f4456cb7.chunk.js.map": "/react-hankfolio/static/js/2.f4456cb7.chunk.js.map",
+    "static/js/3.17625b6e.chunk.js": "/react-hankfolio/static/js/3.17625b6e.chunk.js",
+    "static/js/3.17625b6e.chunk.js.map": "/react-hankfolio/static/js/3.17625b6e.chunk.js.map",
+    "index.html": "/react-hankfolio/index.html",
+    "static/css/main.90e75332.chunk.css.map": "/react-hankfolio/static/css/main.90e75332.chunk.css.map",
+    "static/js/2.f4456cb7.chunk.js.LICENSE.txt": "/react-hankfolio/static/js/2.f4456cb7.chunk.js.LICENSE.txt",
+    "static/media/0.png": "/react-hankfolio/static/media/0.496ecb9d.png",
+    "static/media/1.png": "/react-hankfolio/static/media/1.fa448843.png",
+    "static/media/2.png": "/react-hankfolio/static/media/2.8cfae30a.png",
+    "static/media/3.png": "/react-hankfolio/static/media/3.68f53617.png",
+    "static/media/4.png": "/react-hankfolio/static/media/4.70f6d20e.png",
+    "static/media/5.png": "/react-hankfolio/static/media/5.6017dcd6.png",
+    "static/media/headshotsmall.ed26ff9f.jpg": "/react-hankfolio/static/media/headshotsmall.ed26ff9f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1d5ca86.js",
+    "static/js/2.f4456cb7.chunk.js",
+    "static/css/main.90e75332.chunk.css",
+    "static/js/main.faeb4d67.chunk.js"
+  ]
+}
