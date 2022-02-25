@@ -7,43 +7,42 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'team profile generator',
       //changed this from 'commercial' to 'portfolio'
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Node command line application that genartes an html profile page'
     },
     {
-      name: 'Grocery booth',
+      name: 'City Weather',
             //changed this from 'commercial' to 'portfolio'
-
       category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Check the weather in various cities and see the five day forecast'
     },
     {
-      name: 'Building exterior',
-      category: 'commercial',
+      name: 'Password Generator',
+      category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Keep the important stuff secure with this password generator'
     },
     {
-      name: 'Restaurant table',
-      category: 'commercial',
+      name: 'PokeParent',
+      category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Choose a pokemon and raise them until you are disappointed with their life choices'
     },
     {
-      name: 'Cafe interior',
-      category: 'commercial',
+      name: 'WorkDay Scheduler',
+      category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'nine to five time slots help you keep track of your daily tasks'
     },
     {
-      name: 'Cat green eyes',
-      category: 'portraits',
+      name: 'TaskMaster',
+      category: 'portfolio',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Kanban type task tracker'
     },
     {
       name: 'Green parrot',
@@ -140,7 +139,7 @@ const PhotoList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            src={require(`../../assets/small/${category}/${i}.png`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}

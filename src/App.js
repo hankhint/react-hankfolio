@@ -9,7 +9,7 @@ function App() {
   const [categories] = useState([
     {
       //if I change this to 'portfolio' the whole page breaks
-      name: 'commercial',
+      name: 'portfolio',
       description: 'Web Dev Portfolio',
     },
     { name: 'portraits', description: 'Portraits of people in my life' },
