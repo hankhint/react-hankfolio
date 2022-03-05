@@ -45,6 +45,13 @@ const PhotoList = ({ category }) => {
         'Kanban type task tracker'
     },
     {
+      name: 'cowsulting',
+      category: 'portfolio',
+      description:
+        'customer management deployed to heroku'
+    },
+
+    {
       name: 'Green parrot',
       category: 'portraits',
       description:
